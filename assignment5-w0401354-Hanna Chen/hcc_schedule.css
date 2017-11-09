@@ -1,0 +1,54 @@
+/*
+   New Perspectives on HTML and CSS, 7th Edition
+   Tutorial 6
+   Case Problem 4
+
+   Schedule Table Style Sheet
+   Author: Hanna Chen
+   Date:   2017-10-31
+
+   Filename:         hcc_schedule.css
+   Supporting Files: 
+
+*/
+
+
+table.schedule {
+background:white;
+border: 10px outset rgb(153, 0, 153);
+border-collapse:collapse;
+font-size: 0.75em;
+width:100%	
+	
+}
+
+table.schedule th, table.schedule td {
+border: 1px solid gray;	
+	
+}
+
+table.schedule th.colheader {
+background-color:rgb(128, 0, 128);	
+}
+
+table.schedule tfoot{
+background: #eee;
+}
+
+table.schedule th.colheader{
+width: 10%;	
+}
+
+col.timeslot {
+	background: white;
+}
+
+col.reservation {
+	background: beige;
+}
+
+table.schedule caption {
+caption-side: bottom;
+text-algin: right;
+		
+}

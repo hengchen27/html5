@@ -1,0 +1,169 @@
+﻿@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author: Hanna Chen
+   Date:   2017-10-10
+   
+   Filename: lake_styles.css
+
+*/
+
+@font-face {
+	font-family: cac_champagne;
+	src: url('cac_champagne.woff')format('woff'),
+	     url('ac_champagne.ttf')format('truetype');
+	
+}
+
+@font-face {
+	font-family: DobkinPlain;
+	src: url('DobkinPlain.woff')format('woff'),
+	     url('DobkinPlain.ttf')format('truetype');
+	
+}
+
+/* Main Strcutural Styles */
+
+html {
+	background-color: hsla(50, 60%, 70%,0.8);
+}
+
+body {
+	color: black;
+	background-color: ivory;
+	font-family: Verdana, Geneva, sans-serif;	
+}
+
+/* heading styles */
+
+h1 {
+   color: black;
+   font-size: 1.8em;
+   font-family: DobkinPlain;
+}
+
+h2 {
+   color: black;                          
+   font-size: 1.0em;
+   font-family: cac_champagne;
+}
+
+/* header styles*/
+header nav {
+	background-color: rgb(40, 0, 77);
+}
+
+header nav > ul a {
+	color: white;
+	text-decoration: none;
+}
+
+
+header nav > ul a:hover {
+	color: rgb(66, 244, 217);
+	
+}
+
+/* section styles*/
+
+
+section#leftcol > p {
+      line-height:1.5em;
+	  padding-left: 20px;
+	  margin-left:10px;
+}
+
+section#rightcol {
+	background-color: MistyRose;	
+	
+}
+ 
+section#rightcol > nav > ul {
+    line-height: 2em;
+	list-style-type: none;
+}
+
+section#rightcol > nav > ul a {
+	text-decoration: none;
+	color:rgb(91, 91, 91);
+	font-size: 0.9em;
+}
+
+section#rightcol > nav > ul a:hover {
+           color: rgb(66, 244, 217);
+}
+	  
+section blockquote {
+     color: purple;
+	 font-size: 0.9em;
+	 font-family: Times New Roman;
+	 line-height: 1.5em;
+}
+
+section blockquote::before {
+	content: open-quote;
+	font-family: Times New Roman;
+	font-size: 1.6em;
+	font-weight: bold;
+}
+
+section blockquote::after {
+	content: close-quote;
+	font-family: Times New Roman;
+	font-size: 1.6em;
+	font-weight: bold;
+}
+
+/* aside styles */
+
+aside > h1 {
+      text-align: center;
+      font-size: 1.3em;
+	  font-family:Verdana, Geneva, sans-serif;
+}
+
+aside > h2 {
+      font-size: 0.8em;
+	  color: black;
+	  font-family: Verdana, Geneva, sans-serif;
+}
+
+aside p {
+      font-size: 0.9em;
+	  font-family: Verdana, Geneva, sans-serif;
+}
+
+aside > ul {
+	 font-size:0.9em;
+	 font-family: Verdana, Geneva, sans-serif;
+	 list-style-type: circle;
+}
+
+aside:nth-of-type(1) {
+	background-color: rgb(210, 121, 121);
+	height: 17em;
+}
+
+aside:nth-of-type(2)  {
+    background-color: rgb(179, 134, 0);
+	height: 17em;
+	padding-left: 18px;
+	padding-right: 18px;
+}
+
+/* footer styles */
+
+
+body > footer  {
+   background-color: black;
+   color: rgba(255, 255, 255, 0.7);
+   font-size: 0.6em;
+   text-align: center;
+}
+
+

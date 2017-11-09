@@ -1,0 +1,47 @@
+<h2>Room Descriptions</h2>
+
+<div class="row">
+  <div class="column">
+    <h2>Rooms</h2>
+	<ul>
+	<li>Sunrise Room</li>
+	<li>Moutain View Room</li>
+	<li>Arbor Hall</li>
+	<li>Mitchell Theater</li>
+	<li>Gold Room</li>
+	<li>Blue Room</li>
+	<li>Green Room</li>
+	</ul>
+  </div>
+  <div class="column">
+    <h2>Maximum Capacity</h2>
+    <ul>
+	<li>80</li>
+	<li>150</li>
+	<li>190</li>
+	<li>120</li>
+	<li>40</li>
+	<li>30</li>
+	<li>55</li>
+	</ul>
+  </div>
+</div>
+
+
+<h1>Here are the room descriptions:</h1>
+		 <ul>
+		 <li><b>Sunrise Room</b></br>
+		     Maximum Capacity: 80</li>
+		 <li><b>Moutain View Room</b></br>
+		     Maximum Capacity: 150</li>
+		 <li><b>Arbor Hall</b></br>
+		     Maximum Capacity: 190</li>
+		 <li><b>Mitchell Theatre</b></br>
+		     Maximum Capacity: 120</li>
+		 <li><b>Gold Room</b></br>
+		     Maximum Capacity: 40</li>
+		 <li><b>Blue Room</b></br>
+		     Maximum Capacity: 30</li>
+		 <li><b>Green Room</b></br>
+		     Maximum Capacity: 55</li>
+		 </ul>	
