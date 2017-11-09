@@ -26,6 +26,7 @@
 	</ul>
   </div>
 </div>
+<div></div>
 
 
 <h1>Here are the room descriptions:</h1>
