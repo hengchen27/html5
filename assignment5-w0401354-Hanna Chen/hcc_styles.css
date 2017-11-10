@@ -73,32 +73,20 @@ section#leftcol {
 	
 }
 
-section#sidelinks {
+div#sidelinks {
 	background-color: hsl(340, 100%, 35%);
 	margin-left: 1em;
 	margin-right: 1em;
 	margin-top: 6em;
 	padding: 1em;
 	border-radius: 15px;
+	height:450px;
 }
 aside {
 	margin-top: 3em;	
 	color: black;
 }
-aside#leftsection {
-	background-color: rgb(255, 214, 51);
-	margin-left: 1em;
-	margin-right: 1em;
-	margin-top: 6em;
-	padding: 1.3em;
-	border-radius: 15px;
-}
 
-aside > p {
-      line-height:1.7em;
-	  padding-left: 20px;
-	  margin-left:10px;
-}
 
 aside  h2,ul {
 	text-align: center;
@@ -122,8 +110,41 @@ section#rightcol {
 	color:black;
 	display: inline;
 }
+aside#rightsection {
+	
+	background-color: rgb(255, 214, 51);
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-top: 6em;
+	padding: 1.3em;
+	border-radius: 15px;
+}
 
-/* column styles */
+  /*column styles */
+  
+ aside#rightsection  h1 {
+  -moz-column-span: all;
+  -webkit-column-span: all;
+  column-span: all;
+  color:red;
+  text-align:center;
+ } 
+  
+  
+aside#rightsection > p {
+	-moz-column-count: 2;
+	-webkit-column-count: 2;
+	column-count: 2;
+	
+	-moz-column-gap: 30px;
+	-webkit-column-gap: 30px;
+	column-gap: 30px;
+	
+	column-rule: 1px solid black;
+	
+}
+
+
 div.column {
     float: left;
     width: 50%;
@@ -149,10 +170,7 @@ div.column > ul {
 }
 
 
-
-
 /* footer styles */
-
 
 body > footer  {
    background-color: black;
